@@ -1,0 +1,207 @@
+/* Les polices sont servies par notre propre domaine, jamais par Google :
+   c'est plus rapide, et c'est ce qu'exige le RGPD en Europe. */
+@import '@fontsource-variable/archivo/index.css';
+@import '@fontsource-variable/source-serif-4/index.css';
+@import '@fontsource/ibm-plex-mono/400.css';
+@import '@fontsource/ibm-plex-mono/500.css';
+@import '@fontsource/ibm-plex-mono/600.css';
+
+@import 'tailwindcss';
+
+/* ============================================================
+   AFRO DAILY VILLAGE — DESIGN SYSTEM
+   Direction artistique : cinématographique, terreuse, nocturne.
+   Le site est sombre pour que les photos de village ressortent
+   comme sur un écran de cinéma. L'ocre du logo est la seule
+   couleur vive : c'est la signature de la marque.
+   ============================================================ */
+
+@theme {
+  /* --- Fonds et matières --- */
+  --color-ground: #0d0a06; /* nuit — le fond général */
+  --color-surface: #16110a; /* surface posée sur le fond */
+  --color-raised: #1f1810; /* carte survolée, champ de saisie */
+  --color-line: #2c2318; /* filets discrets */
+  --color-line-strong: #3f3323; /* filets visibles */
+
+  /* --- Encres --- */
+  --color-ink: #f5eee2; /* texte principal */
+  --color-ink-muted: #b3a48d; /* texte secondaire */
+  --color-ink-faint: #7a6e5d; /* étiquettes, métadonnées */
+
+  /* --- Couleurs de marque --- */
+  --color-sun: #e39b2e; /* soleil — accent principal */
+  --color-sun-deep: #c47d14; /* soleil couchant — survols */
+  --color-ember: #c9552a; /* braise — alertes, direct */
+  --color-leaf: #6e8c58; /* feuillage — succès, nature */
+
+  /* --- Surfaces claires (pages de lecture longue) --- */
+  --color-sand: #f7f1e6;
+  --color-sand-deep: #ebe1d0;
+  --color-bark: #4a3d2e;
+
+  /* --- Typographie --- */
+  --font-display: 'Archivo Variable', 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'Source Serif 4 Variable', 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* --- Rythme --- */
+  --spacing-gutter: 1.25rem;
+  --radius-card: 2px;
+
+  /* --- Mouvement --- */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-ground);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+    text-wrap: balance;
+  }
+
+  ::selection {
+    background: var(--color-sun);
+    color: #1a1206;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-sun);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* ============================================================
+   UTILITAIRES DE MARQUE
+   ============================================================ */
+
+@utility label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+@utility wordmark {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  line-height: 0.92;
+}
+
+/* Le voile qui rend un titre lisible sur une photo, sans l'assombrir bêtement */
+@utility scrim {
+  background-image: linear-gradient(
+    to top,
+    rgb(13 10 6 / 0.94) 0%,
+    rgb(13 10 6 / 0.72) 28%,
+    rgb(13 10 6 / 0.25) 60%,
+    rgb(13 10 6 / 0) 100%
+  );
+}
+
+@utility scrim-soft {
+  background-image: linear-gradient(
+    to top,
+    rgb(13 10 6 / 0.85) 0%,
+    rgb(13 10 6 / 0.35) 50%,
+    rgb(13 10 6 / 0) 100%
+  );
+}
+
+/* Grain photographique très léger : donne une matière argentique aux aplats */
+@utility grain {
+  position: relative;
+}
+
+/* ============================================================
+   ANIMATIONS — discrètes, et désactivables
+   ============================================================ */
+
+@keyframes adv-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes adv-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.adv-rise {
+  animation: adv-rise 0.7s var(--ease-out-soft) both;
+}
+
+.adv-fade {
+  animation: adv-fade 1.1s var(--ease-out-soft) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ============================================================
+   SURFACE CLAIRE — pour les articles longs
+   ============================================================ */
+
+.reading-surface {
+  background-color: var(--color-sand);
+  color: #1a1409;
+}
+
+.reading-surface h1,
+.reading-surface h2,
+.reading-surface h3 {
+  color: #120e07;
+}

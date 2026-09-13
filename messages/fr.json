@@ -1,0 +1,256 @@
+{
+  "site": {
+    "name": "Afro Daily Village",
+    "tagline": "Le quotidien des villages africains, raconté au monde",
+    "shortTagline": "Des vrais gens. De vraies histoires. La vraie Afrique."
+  },
+  "nav": {
+    "home": "Accueil",
+    "videos": "Vidéos",
+    "villages": "Villages",
+    "culture": "Culture",
+    "food": "Cuisine",
+    "stories": "Histoires",
+    "languages": "Langues",
+    "about": "À propos",
+    "contact": "Contact",
+    "partners": "Partenaires",
+    "support": "Nous soutenir",
+    "search": "Rechercher",
+    "watchOnYouTube": "Voir sur YouTube",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "switchToFrench": "Read in English",
+    "skipToContent": "Aller au contenu"
+  },
+  "hero": {
+    "eyebrow": "Une chaîne documentaire depuis Kolda, Sénégal",
+    "title": "Découvrez l'Afrique au rythme de ses villages",
+    "subtitle": "Histoires, traditions, cuisine et vies quotidiennes — filmées sur place, racontées par ceux qui les vivent.",
+    "ctaPrimary": "Voir nos films",
+    "ctaSecondary": "Explorer les villages",
+    "scroll": "Défiler"
+  },
+  "videos": {
+    "sectionLabel": "Sur la chaîne",
+    "sectionTitle": "Derniers films",
+    "seeAll": "Voir toutes les vidéos",
+    "duration": "Durée",
+    "watch": "Regarder"
+  },
+  "featured": {
+    "sectionLabel": "Le grand récit",
+    "readStory": "Lire l'histoire",
+    "byline": "Par {author}",
+    "readingTime": "{minutes} min de lecture"
+  },
+  "villages": {
+    "sectionLabel": "La carte",
+    "sectionTitle": "Où nous filmons",
+    "intro": "Nous avons commencé en Haute-Casamance, autour de Kolda, et nous suivons les routes qui en partent — vers la Gambie, la Guinée-Bissau, la Guinée et le Mali.",
+    "seeAll": "Explorer tous les villages",
+    "villagesFilmed": "villages filmés",
+    "countries": "pays",
+    "hoursFilmed": "heures de rushes",
+    "mapCaption": "Coordonnées réelles · carte interactive complète en préparation"
+  },
+  "word": {
+    "sectionLabel": "Le mot du jour",
+    "sectionTitle": "Apprenez un mot",
+    "listen": "Écouter la prononciation",
+    "meaning": "Signification",
+    "usage": "En situation",
+    "seeAll": "Tous les mots et toutes les langues",
+    "spokenIn": "Parlé en {region}"
+  },
+  "food": {
+    "sectionLabel": "Sur le feu",
+    "sectionTitle": "Ce que mange le village",
+    "seeAll": "Toutes les recettes",
+    "from": "{country}"
+  },
+  "youtube": {
+    "sectionLabel": "La chaîne",
+    "title": "Chaque semaine, un nouveau village",
+    "body": "Un film long par semaine, et des séquences courtes prises sur la route. Abonnez-vous pour ne pas manquer le prochain.",
+    "cta": "S'abonner sur YouTube",
+    "secondary": "Les formats courts sur TikTok",
+    "subscribers": "abonnés",
+    "videos": "films publiés",
+    "soon": "Chaîne YouTube — bientôt"
+  },
+  "newsletter": {
+    "title": "Les histoires du village 🌍",
+    "body": "Les nouveaux films, les nouvelles histoires et ce que nous avons trouvé sur la route — une fois par semaine, dans votre boîte mail.",
+    "placeholder": "votre@email.com",
+    "cta": "Je m'abonne",
+    "consent": "Aucun spam. Un clic pour se désinscrire, à tout moment.",
+    "success": "Bienvenue. Vérifiez votre boîte mail pour confirmer.",
+    "error": "Une erreur est survenue. Merci de réessayer."
+  },
+  "social": {
+    "title": "Suivez l'aventure",
+    "body": "Les films longs vivent sur YouTube. La route, les marchés et les cuisines vivent sur TikTok et Instagram."
+  },
+  "footer": {
+    "blurb": "Le quotidien des villages africains, raconté au monde.",
+    "explore": "Explorer",
+    "brand": "Le projet",
+    "legal": "Légal",
+    "legalNotice": "Mentions légales",
+    "privacy": "Confidentialité",
+    "cookies": "Cookies",
+    "terms": "Conditions",
+    "rights": "Tous droits réservés.",
+    "madeIn": "Filmé en Afrique de l'Ouest. Publié depuis la France."
+  },
+  "common": {
+    "demoBadge": "Photo de démonstration",
+    "demoNotice": "Contenu de démonstration — les photos, films et textes ci-dessous sont provisoires, en attendant les vrais tournages.",
+    "readMore": "Lire la suite",
+    "loading": "Chargement",
+    "empty": "Rien ici pour l'instant — les premiers films arrivent.",
+    "backHome": "Revenir au village",
+    "comingSoon": "bientôt"
+  },
+  "pages": {
+    "videos": {
+      "title": "Vidéos",
+      "lead": "Des films documentaires longs et des séquences courtes prises sur la route, tournés dans les villages de Haute-Casamance et des pays voisins.",
+      "filterLabel": "Filtrer",
+      "count": "{count} vidéos",
+      "filters": {
+        "all": "Tout",
+        "documentary": "Documentaires",
+        "dailyLife": "Vie quotidienne",
+        "food": "Cuisine",
+        "culture": "Culture",
+        "traditions": "Traditions",
+        "interviews": "Interviews",
+        "shorts": "Shorts"
+      }
+    },
+    "villages": {
+      "title": "Villages",
+      "lead": "Tous les lieux que nous avons filmés, et ceux où nous allons. Vraies coordonnées, vraies distances.",
+      "filmed": "Filmé",
+      "planned": "Prévu",
+      "byCountry": "Par pays",
+      "coordinates": "Coordonnées",
+      "languagesSpoken": "Langues parlées",
+      "storiesFrom": "Histoires de {place}",
+      "videosFrom": "Films de {place}",
+      "villagesIn": "Villages au {country}"
+    },
+    "culture": {
+      "title": "Culture",
+      "lead": "Traditions, musique, danse, vêtements, artisanat, fêtes, famille et vie sociale — neuf portes d’entrée sur le même monde.",
+      "explore": "Explorer"
+    },
+    "food": {
+      "title": "Cuisine",
+      "lead": "Ce que le village mange vraiment, écrit correctement : les ingrédients, l’ordre, et l’histoire du plat.",
+      "ingredients": "Ingrédients",
+      "method": "Préparation",
+      "story": "L’histoire du plat",
+      "serves": "Pour {count} personnes",
+      "minutes": "{count} min",
+      "step": "Étape {n}"
+    },
+    "stories": {
+      "title": "Histoires",
+      "lead": "Reportages, portraits et interviews depuis les villages. C’est ici qu’on écrit ce que la caméra n’a pas pu dire.",
+      "related": "À lire ensuite",
+      "share": "Partager cette histoire",
+      "watchRelated": "Voir le film sur YouTube",
+      "publishedOn": "Publié le {date}"
+    },
+    "languages": {
+      "title": "Langues",
+      "lead": "Mots et expressions des langues parlées autour de Kolda — comment les dire, ce qu’ils veulent dire, et quand les employer.",
+      "wordCount": "{count} mots",
+      "allWords": "Tous les mots",
+      "spokenIn": "Parlé en"
+    },
+    "about": {
+      "title": "À propos",
+      "mission": "Notre mission",
+      "missionBody": "Faire découvrir au monde la vie quotidienne, les histoires, les cultures et les traditions des villages africains — filmées sur place, racontées par ceux qui les vivent.",
+      "vision": "Notre vision",
+      "visionBody": "Créer un pont entre les communautés villageoises africaines et une audience internationale, sans transformer ni l’une ni l’autre en carte postale.",
+      "values": "Nos valeurs",
+      "how": "Notre façon de travailler",
+      "howBody": "Nous filmons une région à la fois, et nous y retournons. Nous nommons les personnes qui souhaitent l’être, nous situons chaque village, et nous ne présentons jamais une image inventée comme un vrai reportage.",
+      "team": "Qui fait ce site",
+      "valuesList": [
+        "Authenticité",
+        "Respect",
+        "Humanité",
+        "Transmission",
+        "Culture",
+        "Diversité",
+        "Découverte"
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "lead": "Partenariat, sponsoring, presse ou simple question — écrivez-nous en précisant laquelle.",
+      "name": "Votre nom",
+      "email": "Votre e-mail",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "send": "Envoyer",
+      "or": "Ou écrivez directement à",
+      "topics": {
+        "general": "Question générale",
+        "partnership": "Partenariat",
+        "sponsoring": "Sponsoring",
+        "press": "Média",
+        "collaboration": "Collaboration"
+      },
+      "notReady": "Le formulaire sera branché en phase 8. En attendant, l’e-mail fonctionne."
+    },
+    "partners": {
+      "title": "Partenaires",
+      "lead": "Vous souhaitez collaborer avec Afro Daily Village ?",
+      "body": "Nous travaillons avec des marques, des institutions, des offices de tourisme, des sociétés de production et des médias — à condition que le résultat soit quelque chose que nous aurions de toute façon été fiers de filmer.",
+      "sponsoring": "Sponsoring",
+      "sponsoringBody": "Films et articles sponsorisés clairement identifiés. Identifié veut dire identifié.",
+      "advertising": "Publicité",
+      "advertisingBody": "Des emplacements qui ne recouvrent jamais le texte et ne s’ouvrent jamais tout seuls.",
+      "production": "Production",
+      "productionBody": "Tournages sur commande dans la région, avec des équipes locales.",
+      "media": "Médias et cession d’images",
+      "mediaBody": "Cession de rushes et coproductions avec d’autres médias.",
+      "cta": "Nous écrire"
+    },
+    "support": {
+      "title": "Nous soutenir",
+      "lead": "Afro Daily Village est filmé sur la route, avec un petit budget.",
+      "body": "La chose la plus utile que vous puissiez faire ne coûte rien : vous abonner, regarder jusqu’au bout, et envoyer un film à une personne qui ne l’aurait pas trouvé. Si vous voulez faire plus, les façons de soutenir seront listées ici.",
+      "free": "Aider sans dépenser un centime",
+      "freeItems": [
+        "S’abonner sur YouTube et regarder les films jusqu’au bout",
+        "Partager une histoire avec quelqu’un qui ne l’aurait pas trouvée",
+        "Nous dire ce que vous aimeriez voir filmé ensuite"
+      ],
+      "soon": "Le soutien direct ouvrira quand la communauté existera."
+    },
+    "search": {
+      "title": "Rechercher",
+      "lead": "Cherchez dans les villages, les films, les histoires, les recettes et les mots.",
+      "placeholder": "Village, plat, mot, pays…",
+      "submit": "Rechercher",
+      "resultsFor": "{count} résultats pour « {query} »",
+      "noResults": "Rien trouvé pour « {query} ». Essayez un nom de village, un pays ou un plat.",
+      "prompt": "Tapez au moins deux lettres.",
+      "kinds": {
+        "article": "Histoire",
+        "video": "Vidéo",
+        "village": "Village",
+        "recipe": "Recette",
+        "word": "Mot"
+      }
+    }
+  }
+}

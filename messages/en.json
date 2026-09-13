@@ -1,0 +1,256 @@
+{
+  "site": {
+    "name": "Afro Daily Village",
+    "tagline": "The daily life of African villages, told to the world",
+    "shortTagline": "Real people. Real stories. Real Africa."
+  },
+  "nav": {
+    "home": "Home",
+    "videos": "Videos",
+    "villages": "Villages",
+    "culture": "Culture",
+    "food": "Food",
+    "stories": "Stories",
+    "languages": "Languages",
+    "about": "About",
+    "contact": "Contact",
+    "partners": "Partners",
+    "support": "Support us",
+    "search": "Search",
+    "watchOnYouTube": "Watch on YouTube",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchToFrench": "Lire en français",
+    "skipToContent": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "A documentary channel from Kolda, Senegal",
+    "title": "Discover Africa at the pace of its villages",
+    "subtitle": "Stories, traditions, cooking and everyday lives — filmed where they happen, told by the people who live them.",
+    "ctaPrimary": "Watch our films",
+    "ctaSecondary": "Explore the villages",
+    "scroll": "Scroll"
+  },
+  "videos": {
+    "sectionLabel": "On the channel",
+    "sectionTitle": "Latest films",
+    "seeAll": "See all videos",
+    "duration": "Duration",
+    "watch": "Watch"
+  },
+  "featured": {
+    "sectionLabel": "The long read",
+    "readStory": "Read the story",
+    "byline": "By {author}",
+    "readingTime": "{minutes} min read"
+  },
+  "villages": {
+    "sectionLabel": "The map",
+    "sectionTitle": "Where we film",
+    "intro": "We started in Haute-Casamance, around Kolda, and we are following the roads that leave it — into The Gambia, Guinea-Bissau, Guinea and Mali.",
+    "seeAll": "Explore every village",
+    "villagesFilmed": "villages filmed",
+    "countries": "countries",
+    "hoursFilmed": "hours of footage",
+    "mapCaption": "Real coordinates · full interactive map in preparation"
+  },
+  "word": {
+    "sectionLabel": "Word of the day",
+    "sectionTitle": "Learn a word",
+    "listen": "Hear it spoken",
+    "meaning": "Meaning",
+    "usage": "In use",
+    "seeAll": "All words and languages",
+    "spokenIn": "Spoken in {region}"
+  },
+  "food": {
+    "sectionLabel": "From the fire",
+    "sectionTitle": "What the village eats",
+    "seeAll": "All recipes",
+    "from": "From {country}"
+  },
+  "youtube": {
+    "sectionLabel": "The channel",
+    "title": "Every week, a new village",
+    "body": "One long film a week, plus short clips from the road. Subscribe and you will not miss the next one.",
+    "cta": "Subscribe on YouTube",
+    "secondary": "Short clips on TikTok",
+    "subscribers": "subscribers",
+    "videos": "films published",
+    "soon": "YouTube channel — coming soon"
+  },
+  "newsletter": {
+    "title": "Stories from the village 🌍",
+    "body": "New films, new stories and what we found on the road — once a week, in your inbox.",
+    "placeholder": "your@email.com",
+    "cta": "Subscribe",
+    "consent": "No spam. One click to leave, any time.",
+    "success": "Welcome. Check your inbox to confirm.",
+    "error": "Something went wrong. Please try again."
+  },
+  "social": {
+    "title": "Follow the journey",
+    "body": "The long films live on YouTube. The road, the markets and the kitchens live on TikTok and Instagram."
+  },
+  "footer": {
+    "blurb": "The daily life of African villages, told to the world.",
+    "explore": "Explore",
+    "brand": "The project",
+    "legal": "Legal",
+    "legalNotice": "Legal notice",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "terms": "Terms",
+    "rights": "All rights reserved.",
+    "madeIn": "Filmed in West Africa. Published from France."
+  },
+  "common": {
+    "demoBadge": "Demo photo",
+    "demoNotice": "Demonstration content — the photos, films and texts below are placeholders while the real material is being filmed.",
+    "readMore": "Read more",
+    "loading": "Loading",
+    "empty": "Nothing here yet — the first films are on their way.",
+    "backHome": "Back to the village",
+    "comingSoon": "coming soon"
+  },
+  "pages": {
+    "videos": {
+      "title": "Videos",
+      "lead": "Long documentary films and short clips from the road, filmed in the villages of Haute-Casamance and the countries around it.",
+      "filterLabel": "Filter",
+      "count": "{count} videos",
+      "filters": {
+        "all": "All",
+        "documentary": "Documentaries",
+        "dailyLife": "Daily life",
+        "food": "Food",
+        "culture": "Culture",
+        "traditions": "Traditions",
+        "interviews": "Interviews",
+        "shorts": "Shorts"
+      }
+    },
+    "villages": {
+      "title": "Villages",
+      "lead": "Every place we have filmed, and the ones we are heading to next. Real coordinates, real distances.",
+      "filmed": "Filmed",
+      "planned": "Planned",
+      "byCountry": "By country",
+      "coordinates": "Coordinates",
+      "languagesSpoken": "Languages spoken",
+      "storiesFrom": "Stories from {place}",
+      "videosFrom": "Films from {place}",
+      "villagesIn": "Villages in {country}"
+    },
+    "culture": {
+      "title": "Culture",
+      "lead": "Traditions, music, dance, clothing, crafts, festivals, family and social life — nine ways into the same world.",
+      "explore": "Explore"
+    },
+    "food": {
+      "title": "Food",
+      "lead": "What the village actually eats, written down properly: the ingredients, the order, and the story behind the dish.",
+      "ingredients": "Ingredients",
+      "method": "Method",
+      "story": "The story of the dish",
+      "serves": "Serves {count}",
+      "minutes": "{count} min",
+      "step": "Step {n}"
+    },
+    "stories": {
+      "title": "Stories",
+      "lead": "Reports, portraits and interviews from the villages. This is where we write down what the camera could not say.",
+      "related": "Keep reading",
+      "share": "Share this story",
+      "watchRelated": "Watch the film on YouTube",
+      "publishedOn": "Published {date}"
+    },
+    "languages": {
+      "title": "Languages",
+      "lead": "Words and expressions from the languages spoken around Kolda — how to say them, what they mean, and when to use them.",
+      "wordCount": "{count} words",
+      "allWords": "All words",
+      "spokenIn": "Spoken in"
+    },
+    "about": {
+      "title": "About",
+      "mission": "Our mission",
+      "missionBody": "To show the world the daily life, the stories, the cultures and the traditions of African villages — filmed where they happen, told by the people who live them.",
+      "vision": "Our vision",
+      "visionBody": "To build a bridge between African village communities and an international audience, without turning either one into a postcard.",
+      "values": "Our values",
+      "how": "How we work",
+      "howBody": "We film in one region at a time and we go back. We name the people who want to be named, we situate every village, and we never present an invented image as a real report.",
+      "team": "Who makes this",
+      "valuesList": [
+        "Authenticity",
+        "Respect",
+        "Humanity",
+        "Transmission",
+        "Culture",
+        "Diversity",
+        "Discovery"
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "lead": "Partnership, sponsorship, press or a simple question — write to us and say which.",
+      "name": "Your name",
+      "email": "Your email",
+      "subject": "Subject",
+      "message": "Your message",
+      "send": "Send",
+      "or": "Or write directly to",
+      "topics": {
+        "general": "General question",
+        "partnership": "Partnership",
+        "sponsoring": "Sponsorship",
+        "press": "Press",
+        "collaboration": "Collaboration"
+      },
+      "notReady": "The form will be connected in phase 8. In the meantime, email works."
+    },
+    "partners": {
+      "title": "Partners",
+      "lead": "Would you like to work with Afro Daily Village?",
+      "body": "We work with brands, institutions, tourism boards, production companies and media outlets — as long as the result is something we would have been proud to film anyway.",
+      "sponsoring": "Sponsorship",
+      "sponsoringBody": "Clearly labelled sponsored films and articles. Labelled means labelled.",
+      "advertising": "Advertising",
+      "advertisingBody": "Display placements that never cover the text and never open by themselves.",
+      "production": "Production",
+      "productionBody": "Filming on commission in the region, with local crews.",
+      "media": "Media and licensing",
+      "mediaBody": "Footage licensing and co-productions with other outlets.",
+      "cta": "Talk to us"
+    },
+    "support": {
+      "title": "Support us",
+      "lead": "Afro Daily Village is filmed on the road, on a small budget.",
+      "body": "The most useful thing you can do costs nothing: subscribe, watch to the end, and send one film to one person who would not have found it. If you want to do more, the ways to give will be listed here.",
+      "free": "Free ways to help",
+      "freeItems": [
+        "Subscribe on YouTube and watch the films to the end",
+        "Share one story with someone who would not have found it",
+        "Tell us what you want to see filmed next"
+      ],
+      "soon": "Direct support will open once the community exists."
+    },
+    "search": {
+      "title": "Search",
+      "lead": "Search the villages, the films, the stories, the recipes and the words.",
+      "placeholder": "Village, dish, word, country…",
+      "submit": "Search",
+      "resultsFor": "{count} results for “{query}”",
+      "noResults": "Nothing found for “{query}”. Try a village name, a country, or a dish.",
+      "prompt": "Type at least two letters.",
+      "kinds": {
+        "article": "Story",
+        "video": "Video",
+        "village": "Village",
+        "recipe": "Recipe",
+        "word": "Word"
+      }
+    }
+  }
+}
